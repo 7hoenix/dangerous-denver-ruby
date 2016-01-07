@@ -1,5 +1,4 @@
 require "csv"
-require "pry"
 
 def benchmark(start = Time.now)
   calculate("traffic-accidents", "INCIDENT_ADDRESS")
